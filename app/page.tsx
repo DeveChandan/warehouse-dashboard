@@ -793,7 +793,18 @@ export default function Dashboard() {
                 </Button>
               </div>
             </div>
-          </CardContent>
+          {/* ...existing code... */}
+          <div className="flex justify-center mt-8">
+            <Button
+              variant="default"
+              size="lg"
+              onClick={() => window.location.href = "/welcome"}
+              className="bg-green-600 text-white hover:bg-green-700"
+            >
+              Open Welcome Page
+            </Button>
+          </div>
+        </CardContent>
         </Card>
 
         {/* Data Table */}
